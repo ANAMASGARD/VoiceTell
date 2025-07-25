@@ -179,7 +179,13 @@ export default function HomePage() {
           ),
         );
 
-        const response = await fetch("https://chaudharygaurav2004--audio-cnn-inference-audioclassifier-3d645a.modal.run", {
+        const API_URL = process.env.NEXT_PUBLIC_API_URL;
+
+        if (!API_URL) {
+          throw new Error("API URL is not configured. Please set NEXT_PUBLIC_API_URL environment variable.");
+        }
+
+        const response = await fetch(API_URL, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ audio_data: base64String }),
