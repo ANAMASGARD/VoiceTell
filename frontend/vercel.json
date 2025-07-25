@@ -1,18 +1,5 @@
 {
-  "buildCommand": "bun run build",
-  "devCommand": "bun run dev",
-  "installCommand": "bun install",
   "framework": "nextjs",
-  "functions": {
-    "app/**/*.js": {
-      "maxDuration": 30
-    }
-  },
-  "regions": ["iad1"],
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/next"
-    }
-  ]
+  "buildCommand": "bun run build",
+  "installCommand": "bun install"
 }
