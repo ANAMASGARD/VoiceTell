@@ -15,6 +15,18 @@
 
 ---
 
+## 🎥 Screenshots
+
+| Landing Page                | Uploading WAV File           |
+|-----------------------------|------------------------------|
+| ![Landing Page](./screenShots/Landing-Page.png) | ![Uploading WAV File](./screenShots/Uploading-WAV-FORMAT-FILE.png) |
+
+| Analysis - Waveform         | Layered Output               |
+|-----------------------------|------------------------------|
+| ![Analysis Waveform](./screenShots/Analysis-WaveForm.png) | ![Layered Output](./screenShots/Layered-Output.png) |
+
+---
+
 ## 🌟 Project Overview
 
 **VoiceTell** is a cutting-edge web application that leverages a custom-built Convolutional Neural Network (CNN) to classify audio files with remarkable accuracy. Built entirely from scratch using PyTorch, this project demonstrates deep understanding of neural networks, audio signal processing, and modern web development practices.
@@ -260,7 +272,7 @@ Create a `.env.local` file in the frontend directory:
 
 ```env
 # Modal.com API endpoint
-NEXT_PUBLIC_API_URL=https://chaudharygaurav2004--audio-cnn-inference-audioclassifier-3d645a.modal.run
+NEXT_PUBLIC_API_URL=https://modal.run
 
 # Optional: Custom configuration
 NEXT_PUBLIC_APP_NAME=VoiceTell
@@ -470,11 +482,6 @@ We welcome contributions! Here's how you can help:
    - Reference related issues
 
 ---
-
-
-
-
-
 
 ## 🙏 Acknowledgments
 
